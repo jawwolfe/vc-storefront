@@ -26,6 +26,10 @@ namespace VirtoCommerce.LiquidThemeEngine.Converters
             {
                 result.PublishedAt = contentItem.PublishedDate.Value;
             }
+            if (contentItem.Youtube != null)
+            {
+                result.Youtube = contentItem.Youtube;
+            }
             return result;
         }
     }

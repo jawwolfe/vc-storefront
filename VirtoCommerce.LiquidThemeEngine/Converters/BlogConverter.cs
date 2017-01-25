@@ -40,7 +40,10 @@ namespace VirtoCommerce.LiquidThemeEngine.Converters
 
             retVal.Handle = blog.Name.Replace(" ", "-").ToLower();
             retVal.Categories = blog.Categories;
-
+            if (blog.Youtube != null)
+            {
+                retVal.Youtube = blog.Youtube;
+            }
             return retVal;
         }
     }

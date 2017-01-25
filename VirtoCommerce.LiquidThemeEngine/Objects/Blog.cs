@@ -60,5 +60,10 @@ namespace VirtoCommerce.LiquidThemeEngine.Objects
         /// Gets or sets the list of categories of the blog
         /// </summary>
         public ICollection<string> Categories { get; set; }
+
+        /// <summary>
+        /// Gets or sets the list of youtube embed code of the blog 
+        /// </summary>
+        public string Youtube { get; set; }
     }
 }

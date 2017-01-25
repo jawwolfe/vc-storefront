@@ -84,6 +84,8 @@ namespace VirtoCommerce.Storefront.Model.StaticContent
 
         public string FileName { get; set; }
 
+        public string Youtube { get; set; }
+
         public Language Language { get; set; }
 
         public int Priority { get; set; }
@@ -109,6 +111,10 @@ namespace VirtoCommerce.Storefront.Model.StaticContent
 
                         case "title":
                             Title = settingValue;
+                            break;
+
+                        case "youtube":
+                            Youtube = settingValue;
                             break;
 
                         case "author":

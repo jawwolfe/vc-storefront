@@ -54,5 +54,10 @@ namespace VirtoCommerce.LiquidThemeEngine.Objects
         public string Type { get; set; }
 
         public int Priority { get; set; }
+
+        /// <summary>
+        /// Gets or sets the list of youtube embed code of the blog 
+        /// </summary>
+        public string Youtube { get; set; }
     }
 }
